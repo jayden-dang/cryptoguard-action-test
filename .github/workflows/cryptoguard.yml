@@ -33,7 +33,7 @@ jobs:
       - name: CryptoGuard Deploy
         uses: CommandOSSLabs/cryptoguard-action@v0.2.2
         with:
-          domain: jaydendang.com
+          domain: cryptoguard-action.vercel.app
           debug: true
           build-dir: ./build
           network: testnet # or mainnet for production
